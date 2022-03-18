@@ -48,3 +48,7 @@ html {
     float: left;
     margin-left: 10px;
 }
+
+.order-overlay {
+    margin-top: 50%;
+}
