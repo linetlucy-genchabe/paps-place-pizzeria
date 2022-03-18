@@ -23,12 +23,12 @@ html {
 
 .landing p {
     padding: 2px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #mouse-click {
     padding-top: 22px;
-    margin-top: 10%;
+    margin-top: 6%;
     padding-bottom: 30px;
 }
 
@@ -36,6 +36,14 @@ html {
     animation: bounce 2s infinite;
 }
 
-h2 {
+.h2 {
     font-family: 'Gabriela', serif;
+}
+
+.varieties {
+    align-items: center;
+}
+
+#type {
+    float: left;
 }
