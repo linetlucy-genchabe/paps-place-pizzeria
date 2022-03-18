@@ -4,7 +4,7 @@ html {
 }
 
 .landing {
-    background-image: url('../images/pizzashop3.jpg');
+    background-image: url('../images/pizzashop5.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +47,11 @@ html {
 
 #type {
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+#type:hover {
+    transform: scale(1.1);
 }
 
 .order-overlay {
