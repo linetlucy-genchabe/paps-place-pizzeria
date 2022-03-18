@@ -22,37 +22,46 @@
         <a href="#type"><img src="images/mouse_click.png" alt=" mouse_click" id="mouse-click"></a>
 
     </div>
-    <div class="container">
+    <div class="container" id="make-orders">
 
-        <div class="Varieties" style="padding-bottom: 45%;">
+        <div class="Varieties">
             <h2>ON THE MENU</h2>
+            <div class="row">
+                <div class="col-md-4" id="type">
+                    <img src="images/pepperoni.jpg" alt="pepperoni pizza" height="200px" width="300px">
+                    <p>PEPPERONI PIZZA</p>
+                </div>
+                <div class="col-md-4" id="type">
+                    <img src="images/vegeterian.jpg" alt="vegeterian pizza" height="200px" width="300px">
+                    <P>VEGETERIAN PIZZA</P>
+                </div>
+                <div class="col-md-4" id="type">
+                    <img src="images/cheese.jpg" alt="cheese pizza" height="200px" width="300px">
+                    <p>CHEESE PIZZA</p>
+                </div>
+            </div>
+            <div class="row">
 
-            <div id="type">
-                <img src="images/pepperoni.jpg" alt="pepperoni pizza" height="200px" width="300px">
-                <p>PEPPERONI PIZZA</p>
-            </div>
-            <div id="type">
-                <img src="images/vegeterian.jpg" alt="vegeterian pizza" height="200px" width="300px">
-                <P>VEGETERIAN PIZZA</P>
-            </div>
-            <div id="type">
-                <img src="images/cheese.jpg" alt="cheese pizza" height="200px" width="300px">
-                <p>CHEESE PIZZA</p>
-            </div>
-            <div id="type">
-                <img src="images/seafood.jpg" alt="seafood pizza" height="200px" width="300px">
-                <P>SEAFOOD PIZZA</P>
-            </div>
-            <div id="type">
-                <img src="images/Margherita.jpg" alt="Margherita pizza" height="200px" width="300px">
-                <P>MARGHERITA PIZZA</P>
-            </div>
-            <div id="type">
-                <img src="images/mushroom.jpg" alt="mushroom pizza" height="200px" width="300px">
-                <P>MUSHROOM PIZZA</P>
+                <div class="col-md-4" id="type">
+                    <img src="images/seafood.jpg" alt="seafood pizza" height="200px" width="300px">
+                    <P>SEAFOOD PIZZA</P>
+                </div>
+                <div class="col-md-4" id="type">
+                    <img src="images/Margherita.jpg" alt="Margherita pizza" height="200px" width="300px">
+                    <P>MARGHERITA PIZZA</P>
+                </div>
+                <div class="col-md-4" id="type">
+                    <img src="images/mushroom.jpg" alt="mushroom pizza" height="200px" width="300px">
+                    <P>MUSHROOM PIZZA</P>
+                </div>
             </div>
 
         </div>
+
+    </div>
+
+
+    <div class="container">
 
 
         <div class="order-overlay" style="padding-bottom: 5%; padding-left: 5%;">
@@ -61,7 +70,7 @@
             </div>
             <h2 style="margin-left:10px; ">Order your pizza here and we will deliver it to you at your door step!</h2>
             <div class="row ">
-                <div class=" ">
+                <div class=" col-sm-7">
                     <form action=" ">
                         <label for="select " style="margin-left:10px; ">Select type</label>
                         <select class="browser-default custom-select custom-select-md mb-3 name ">
@@ -150,7 +159,7 @@
                     <button class="btn btn-orange deliver">Home delivery?</button>
                 </div>
             </div>
-            <div class="delivery">
+            <div class="delivery" style="margin-top: 10px;">
                 <form action="">
                     <div class="form-group">
                         <input type="text" id="name" class="form-control mb-3" placeholder="Name">
@@ -162,32 +171,32 @@
             </div>
 
         </div>
+
     </div>
     <div class="container" id="contact" style="padding-left: 5%; border-radius: 20px;padding-bottom: 2%;">
         <div class="controls-top ">
             <h2>Contact Us</h2>
         </div>
         <div class="row" id="contactdetails">
-            <div class="col-md-1">
 
-            </div>
-            <div class="col-md-3 text-justify">
+            <div class="col-md-4 text-justify" style="margin-left: 2%;">
                 <h2>Location</h2>
                 <p>Paps place pizzeria</p>
                 <p>PAPS | LANGATA</p>
                 <p>40200 L.A </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4" style="margin-left: 5%;">
                 <h2>Customer Care</h2>
                 <p>papsplace.pizzeria@gmail.com</p>
                 <p>Tell: +254740923600</p>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="margin-left: 5%;">
                 <div class="mapouter">
                     <div class="gmap_canvas">
                         <iframe width="350" height="180" id="gmap_canvas" src="https://maps.google.com/maps?q=langata%20mall&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                       </iframe>
+
                     </div>
                     <style>
                         .mapouter {
@@ -206,19 +215,19 @@
                     </style>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row">
-            <div class="container text-center footer">
-                <p align="center">&copy; 2022| PAPS PLACE PIZZERIA</p>
+
+            <div class="row" style="margin-top: 20%;">
+                <div class=" container text-center footer " align="left">
+                    <p>&copy; 2022| PAPS PLACE PIZZERIA</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js "></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
+        <script src="js/scripts.js "></script>
 </body>
 
 </html>
