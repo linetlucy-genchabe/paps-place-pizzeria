@@ -35,3 +35,7 @@ html {
 #mouse-click {
     animation: bounce 2s infinite;
 }
+
+h2 {
+    font-family: 'Gabriela', serif;
+}
