@@ -4,7 +4,7 @@ html {
 }
 
 .landing {
-    background-image: url('../images/pizzashop2.jpg');
+    background-image: url('../images/pizzashop3.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,6 +14,7 @@ html {
     font-family: 'Gabriela', serif;
     height: 100%;
     width: 100%;
+    font-size: larger;
 }
 
 .landing h1 {
@@ -29,7 +30,7 @@ html {
 #mouse-click {
     padding-top: 22px;
     margin-top: 6%;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #mouse-click {
@@ -50,5 +51,9 @@ html {
 }
 
 .order-overlay {
-    margin-top: 50%;
+    font-family: 'Gabriela', serif;
+    /* background-color: lightsalmon; */
+    border-radius: 20px;
+    background-image: url(../images/pizzashop3.jpg);
+    color: white;
 }
