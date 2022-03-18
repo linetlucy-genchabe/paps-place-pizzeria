@@ -15,23 +15,3 @@ html {
     height: 100%;
     width: 100%;
 }
-
-.landing h1 {
-    padding: 2px;
-    margin: 5px;
-}
-
-.landing p {
-    padding: 2px;
-    margin-bottom: 40px;
-}
-
-#mouse-click {
-    padding-top: 22px;
-    margin-top: 10%;
-    padding-bottom: 30px;
-}
-
-#mouse-click {
-    animation: bounce 2s infinite;
-}
