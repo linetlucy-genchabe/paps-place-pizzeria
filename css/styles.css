@@ -57,3 +57,7 @@ html {
     background-image: url(../images/pizzashop3.jpg);
     color: white;
 }
+
+#contact {
+    background-color: lightgrey;
+}
