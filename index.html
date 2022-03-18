@@ -55,7 +55,7 @@
         </div>
 
 
-        <div class="order-overlay">
+        <div class="order-overlay" style="padding-bottom: 5%; padding-left: 5%;">
             <div class="controls-top text-center" id="Order-now">
                 <h2 align="center ">Order Here</h2>
             </div>
@@ -150,18 +150,75 @@
                     <button class="btn btn-orange deliver">Home delivery?</button>
                 </div>
             </div>
+            <div class="delivery">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                        <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                        <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                        <button class="btn btn-orange" id="final-order">Place Order</button>
+                    </div>
+                </form>
+            </div>
 
         </div>
+    </div>
+    <div class="container" id="contact" style="padding-left: 5%; border-radius: 20px;padding-bottom: 2%;">
+        <div class="controls-top ">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="row" id="contactdetails">
+            <div class="col-md-1">
 
+            </div>
+            <div class="col-md-3 text-justify">
+                <h2>Location</h2>
+                <p>Paps place pizzeria</p>
+                <p>PAPS | LANGATA</p>
+                <p>40200 L.A </p>
+            </div>
+            <div class="col-md-3">
+                <h2>Customer Care</h2>
+                <p>papsplace.pizzeria@gmail.com</p>
+                <p>Tell: +254740923600</p>
 
+            </div>
+            <div class="col-md-4">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="350" height="180" id="gmap_canvas" src="https://maps.google.com/maps?q=langata%20mall&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                      </iframe>
+                    </div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 180px;
+                            width: 350px;
+                        }
+                        
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none!important;
+                            height: 180px;
+                            width: 350px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="container text-center footer">
+                <p align="center">&copy; 2022| PAPS PLACE PIZZERIA</p>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
-
-        <script src="js/scripts.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js "></script>
 </body>
 
 </html>
