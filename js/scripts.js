@@ -34,8 +34,10 @@ $(document).ready(function() {
                 price = 600;
                 console.log(price);
             default:
-                console.log("error");
+
+                console.log("no price");
         }
+
         switch (pcrust) {
             case "0":
                 crust_price = 0;
@@ -77,8 +79,11 @@ $(document).ready(function() {
         $("#totals").html(total);
         $("button.addPizza").click(function() {
             let pname = $(".name option:selected").val();
+            console.log(pname);
             let psize = $("#size option:selected").val();
+            console.log(psize);
             let pcrust = $("#crust option:selected").val();
+            console.log(pcrust);
             let ptopping = [];
             $.each($("input[name='toppings']:checked"), function() {
                 ptopping.push($(this).val());
@@ -119,7 +124,7 @@ $(document).ready(function() {
                     console.log("No price");
             }
             let topping_value = ptopping.length * 50;
-            console.log("toppins value" + topping_value);
+            console.log("toppings value" + topping_value);
             total = price + crust_price + topping_value;
             console.log(total);
 
